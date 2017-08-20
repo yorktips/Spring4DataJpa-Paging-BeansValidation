@@ -38,3 +38,11 @@ CREATE TABLE employee(
 	age	int(11) ,
 	PRIMARY KEY ( id)
  );
+
+
+For Enabling RestfulAPI, need to add folloiwng dependenxy:
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+	<artifactId>jackson-databind</artifactId>
+	<version>2.5.3</version>
+    </dependency>
